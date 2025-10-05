@@ -1,0 +1,26 @@
+# Development dependencies for AI Audio Listener
+
+-r base.txt
+
+# Development tools
+black==23.11.0  # Code formatting
+isort==5.12.0   # Import sorting
+flake8==6.1.0   # Linting
+mypy==1.7.1     # Type checking
+
+# Testing
+pytest==7.4.3
+pytest-asyncio==0.21.1
+pytest-cov==4.1.0  # Coverage reporting
+httpx==0.25.2      # For async HTTP testing
+
+# Debugging and development
+ipdb==0.13.13      # Python debugger
+rich==13.7.0       # Beautiful CLI output
+
+# Environment and configuration
+pre-commit==3.5.0  # Git hooks
+
+# Documentation (if needed)
+# mkdocs==1.5.3
+# mkdocs-material==9.4.8
