@@ -1,0 +1,146 @@
+# ==========================
+# Python
+# ==========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments
+venv/
+env/
+.venv/
+ENV/
+env.bak/
+
+# Distribution / packaging
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# PyCharm / VSCode
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Logs and runtime files
+logs/
+*.log
+*.pid
+*.out
+*.err
+
+# Environment variables / secrets
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+*.env
+
+# ==========================
+# AI / ML Specific
+# ==========================
+# Model files (can be very large)
+*.h5
+*.hdf5
+*.pkl
+*.joblib
+*.pt
+*.pth
+*.onnx
+*.tflite
+*.pb
+
+# Dataset files
+data/
+datasets/
+*.csv
+*.tsv
+*.jsonl
+*.parquet
+*.zip
+*.tar
+*.tar.gz
+
+# Checkpoints and experiments
+checkpoints/
+runs/
+wandb/
+mlruns/
+outputs/
+experiments/
+
+# Hugging Face cache & models
+.huggingface/
+cache/
+models/
+
+# TensorBoard logs
+tensorboard/
+tb_logs/
+
+# ==========================
+# Miscellaneous
+# ==========================
+.DS_Store
+Thumbs.db
+
+# Local development files
+*.local
+*.bak
+*.tmp
+*.temp
+
+# Scripts / generated files
+scripts/*.sh~
+scripts/*.bak
+
+# ==========================
+# FastAPI / Uvicorn specific
+# ==========================
+# Uvicorn reload temporary files
+.reload
+
+# ==========================
+# Docker (if used)
+# ==========================
+docker-compose.override.yml
+.env.docker
