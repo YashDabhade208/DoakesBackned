@@ -1,0 +1,7 @@
+fastapi
+pydantic
+uvicorn
+sqlalchemy
+python-magic
+pydub
+openai
