@@ -1,0 +1,16 @@
+﻿# Folder/File Purpose
+app\            # Main application package
+  main.py           # App entrypoint, starts FastAPI
+  api\routes.py     # API endpoint logic
+  config\           # Config management (env, settings)
+  db\               # DB connection and setup
+  models\           # ORM models (User, Session, etc)
+  schemas\          # Pydantic API schemas
+  services\         # Core business logic (audio processing, summary)
+  utils\            # Utilities (audio tools, security)
+tests\          # Unit & integration tests
+scripts\        # One-off scripts/Migrations
+requirements.txt    # Python package list
+.env.example        # Config template
+README.md           # Project overview/instructions
+run_server.bat      # Dev launch script
