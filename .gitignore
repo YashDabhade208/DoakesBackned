@@ -1,0 +1,109 @@
+
+# OS junk
+.DS_Store  [web:38]
+**/.DS_Store  [web:38]
+**/._.DS_Store  [web:38]
+Thumbs.db  [web:8]
+
+# Python bytecode / builds
+__pycache__/ [web:22]
+*.py[cod] [web:22]
+*.so [web:22]
+.build/ [web:22]
+build/ [web:22]
+dist/ [web:22]
+.eggs/ [web:22]
+*.egg-info/ [web:22]
+*.egg [web:22]
+pip-wheel-metadata/ [web:22]
+
+# Virtual envs
+.venv/ [web:25]
+venv/ [web:25]
+env/ [web:22]
+.conda/ [web:22]
+.pyenv/ [web:22]
+
+# IDE / tooling
+.vscode/ [web:31]
+.idea/ [web:31]
+*.code-workspace [web:31]
+.ipynb_checkpoints/ [web:22]
+.mypy_cache/ [web:22]
+.pytype/ [web:22]
+.pyre/ [web:22]
+.coverage [web:22]
+htmlcov/ [web:22]
+.tox/ [web:22]
+pytest_cache/ [web:22]
+
+# Env/config secrets
+.env [web:21]
+.env.* [web:22]
+*.env [web:22]
+secrets*.json [web:22]
+*.pem [web:22]
+*.key [web:22]
+
+# FastAPI/UVicorn
+*.log [web:22]
+uvicorn*.log [web:22]
+instance/ [web:24]
+.alembic/ [web:24]
+
+# Static/media/runtime
+staticfiles/ [web:24]
+media/ [web:24]
+uploads/ [web:24]
+tmp/ [web:22]
+cache/ [web:22]
+*.sqlite3 [web:21]
+
+# Whisper / audio artifacts
+# Raw and processed audio, large transcripts, and temporary chunks
+audio/ [web:26]
+recordings/ [web:26]
+*.wav [web:26]
+*.mp3 [web:26]
+*.m4a [web:26]
+*.flac [web:26]
+*.opus [web:26]
+*.srt [web:26]
+*.vtt [web:26]
+*.tsv [web:26]
+*.jsonl [web:26]
+whisper_cache/ [web:26]
+whisper_temp/ [web:26]
+
+# Models and checkpoints
+models/ [web:22]
+checkpoints/ [web:22]
+artifacts/ [web:22]
+*.pt [web:22]
+*.bin [web:22]
+*.onnx [web:22]
+*.tflite [web:22]
+*.safetensors [web:22]
+
+# Hugging Face / datasets
+.huggingface/ [web:22]
+datasets/ [web:22]
+data/ [web:22]
+hf_cache/ [web:22]
+huggingface/ [web:22]
+
+# Vector DB / search indexes
+chroma/ [web:24]
+faiss_index/ [web:24]
+indexes/ [web:24]
+
+# Docker
+*.pid [web:22]
+docker-data/ [web:22]
+docker-volumes/ [web:22]
+
+# Git LFS hints (keep in .gitattributes instead)
+# If you use LFS for audio/models, configure tracking rather than ignoring
+# Example .gitattributes:
+# *.wav filter=lfs diff=lfs merge=lfs -text [web:23]
+# *.pt filter=lfs diff=lfs merge=lfs -text [web:23]
